@@ -79,13 +79,12 @@ public static class Globals
     public static Color defaultNeutralColor = new Color(243f / 255f, 255f / 255f, 55f / 155f, 1f);
 
     private static List<Color> playersColor = new List<Color>()
-    {
-        Color.cyan,
-        Color.blue, 
-        Color.white,
-        Color.magenta,
-        Color.black,
-        new Color(123f/255f, 79f/255f, 55f/255f)
+    { 
+        new Color(145f/255f, 255f/255f, 62f/255f),
+        new Color(255f/255f, 33f/255f, 85f/255f),
+        new Color(33f/255f, 85f/255f, 255f/255f),
+        new Color(235f/255f, 107f/255f, 0f/255f),
+        new Color(217f/255f, 95f/255f, 175f/255f), 
     };
 
     public static float animationMoveSpeedForLocalPlayer = 7f;
